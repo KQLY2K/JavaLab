@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.*;
 
-public class URLPool {
+public class URLPool { //класс откуда берём ссылки
     private HashMap<String, URLDepthPair> visited;
     private LinkedList<URLDepthPair> pool;
 

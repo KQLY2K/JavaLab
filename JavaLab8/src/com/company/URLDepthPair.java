@@ -1,6 +1,6 @@
 package com.company;
 
-public class URLDepthPair {
+public class URLDepthPair { //класс для пары ссылки и глубины
     private String URL;
     private int depth;
 

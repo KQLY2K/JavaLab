@@ -22,7 +22,7 @@ public class Crawler {
     }
 
     public static void main(String[] args){
-        Crawler crawler = new Crawler("https://javarush.ru",2 ,10);
+        Crawler crawler = new Crawler("https://mtuci.ru",2 ,10);
         crawler.run();
 
         Runtime.getRuntime().addShutdownHook(new Thread(()->printResult()));
